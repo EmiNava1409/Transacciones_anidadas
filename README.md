@@ -127,5 +127,3 @@ Para manejarlo correctamente se pueden implementar mecanismos como:
 Este proyecto permite comprender el manejo de transacciones en PostgreSQL aplicando savepoints, control de concurrencia mediante deadlocks y protección del sistema mediante timeouts.
 Estos mecanismos son fundamentales en sistemas reales, ya que garantizan consistencia, estabilidad y rendimiento en entornos con múltiples usuarios.
 
-## Explicación del ejercicio
-https://pucesm-my.sharepoint.com/:f:/g/personal/mnavarrete6989_pucesm_edu_ec/IgBAr8hseMCtQqRhvrRgzNljAR21uWHT2ZSzXu2-ynb7mCM?e=QSarrI
