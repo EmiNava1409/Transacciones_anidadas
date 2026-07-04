@@ -175,6 +175,9 @@ Estos mecanismos son fundamentales en sistemas reales, ya que garantizan consist
 ### Imagen 4: Resultado completo
 <img width="1000" height="700" alt="image" src="https://github.com/user-attachments/assets/e4c265b4-ea73-4127-b42b-588e12b0f2c2" />
 
+### Imagen 5: Base de Datos creada
+<img width="1358" height="947" alt="image" src="https://github.com/user-attachments/assets/da4a627f-462e-40da-aaa5-6a8170aa545e" />
+
 
 
 
