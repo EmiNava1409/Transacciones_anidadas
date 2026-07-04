@@ -52,7 +52,7 @@ pip install psycopg2-binary
 ```
 
 ### 3. Configurar la base de datos en PostgreSQL
-Antes de ejecutar el proyecto, asegúrate de tener creada la base de datos:
+Antes de ejecutar el proyecto, asegúrese de tener creada la base de datos:
 ```sql
 Nombre de la base de datos: viajes
 Usuario: postgres
@@ -60,7 +60,7 @@ Contraseña: root
 Host: localhost
 Puerto: 5432
 ```
-Verifica que estos datos coincidan con los que están en el código Python.
+Verifique que estos datos coincidan con los que están en el código Python.
 
 ### 4. Ejecutar el programa
 ```sql
