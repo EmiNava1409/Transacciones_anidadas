@@ -39,7 +39,7 @@ Si el hotel no tiene disponibilidad:
 
 Este comportamiento simula sistemas reales donde no basta con fallar la operación, sino que también se deben revertir cambios ya realizados para mantener consistencia.
 
-## Cómo ejecutar el proyecto
+# Cómo ejecutar el proyecto
 ### 1. Clonar el repositorio
 ```sql
 git clone https://github.com/EmiNava1409/Transacciones_anidadas.git
