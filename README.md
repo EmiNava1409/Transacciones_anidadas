@@ -39,13 +39,45 @@ Si el hotel no tiene disponibilidad:
 
 Este comportamiento simula sistemas reales donde no basta con fallar la operación, sino que también se deben revertir cambios ya realizados para mantener consistencia.
 
+## Cómo ejecutar el proyecto
+### 1. Clonar el repositorio
+```sql
+git clone https://github.com/EmiNava1409/Transacciones_anidadas.git
+cd Transacciones_anidadas
+```
+
+### 2. Instalar dependencias
+```sql
+pip install psycopg2-binary
+```
+
+### 3. Configurar la base de datos en PostgreSQL
+Antes de ejecutar el proyecto, asegúrate de tener creada la base de datos:
+```sql
+Nombre de la base de datos: viajes
+Usuario: postgres
+Contraseña: root
+Host: localhost
+Puerto: 5432
+```
+Verifica que estos datos coincidan con los que están en el código Python.
+
+### 4. Ejecutar el programa
+```sql
+python main.py
+```
+
+
+### 5. Verificar resultados
+Puedes revisar el funcionamiento en:
+- Consola (transacciones, commits, rollbacks)
+- pgAdmin (cambios en las tablas de la base de datos)
 
 
 # Explicación del código
 
 ### Conexión a la base de datos  
 Se utiliza `psycopg2` para la conexión a PostgreSQL con `autocommit = False`.
-
 Esto es importante porque permite controlar manualmente cuándo se confirma o se revierte una transacción, lo cual es clave para implementar savepoints y rollback.
 
 
